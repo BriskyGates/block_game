@@ -7,6 +7,7 @@ class Settings():
         self.screen_height = 800
         # 屏幕背景
         self.screen_bg = (20, 20, 82)
+
         # 控制器的速度
         self.controler_speed =2
         # 控制器的宽度

@@ -10,6 +10,7 @@ class Award(Sprite):
         self.settings = settings
         self.screen = screen
         self.flag = False
+        # 奖励颜色的随机生成
         if random.randint(0, 1) == 0:
             # self.image = pygame.image.load('./pic1.png')
             self.color = (255, 0, 0)
