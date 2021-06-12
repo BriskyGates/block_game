@@ -14,6 +14,8 @@ class Settings():
         self.controller_width = 180
         # 控制器的高度
         self.controller_height =20
+        # self.controler_x=600
+
 
         # 球的速度
         self.ball_speed = 0.8

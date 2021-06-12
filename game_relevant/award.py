@@ -34,5 +34,6 @@ class Award(Sprite):
         pygame.draw.rect(screen, self.color, self.rect)
 
     def update(self, *args):
+        # 更新奖励的实时位置
         self.rect.y = self.rect.y + self.settings.aware_down_speed
 

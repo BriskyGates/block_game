@@ -12,6 +12,7 @@ class Controller(Sprite):
         # self.image = pygame.image.load("images/Controller.png")
         # self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
+
         self.rect = pygame.Rect(self.screen_rect.centerx, self.screen_rect.bottom, settings.controller_width,
                                 settings.controller_height)
         self.rect.centerx = self.screen_rect.centerx

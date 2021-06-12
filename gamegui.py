@@ -65,7 +65,7 @@ def usr_log_in():
             tk.messagebox.showinfo(title='welcome',
                                    message='欢迎您：' + usr_name)
             s2ss = start.run_game(usr_name,usr_pwd)
-
+            # 假设run_game 报错, 无法进行后续处理
         else:
             tk.messagebox.showerror(message='密码错误')
     # 用户名密码不能为空
